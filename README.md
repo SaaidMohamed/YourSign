@@ -1,0 +1,2 @@
+# [ZodiacSign][pypi-url]
+

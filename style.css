@@ -1,0 +1,112 @@
+body{
+    font-family: Arial;
+}
+.pic{
+    background: url('1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0,0.0);
+    box-sizing: border-box;
+    padding: 40px;
+    color: black;
+    margin-top:10px;
+}
+h2{
+    text-align: center;
+}
+select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background:rgba(0, 0, 0, 0.30) ;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+#genderr, input[type=text] ,input[type=password],input[type=date]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background:rgba(0, 0, 0, 0.30) ;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+#Zodiac{
+    display: none;
+}
+::placeholder{
+    color: white;
+}
+.writ, p {
+    font-size: 1.2rem;
+}
+.submt{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    outline-style: none !important;
+}
+.submt:hover{
+    background:#003366;
+    opacity: 0.7;
+}
+.backgr{
+    background: url(./img/background1.jpeg);
+  }
+  .scrol{
+      max-width: 100%;
+      white-space: nowrap;
+      height: 50px;
+      overflow-x: auto;
+      text-align: center;
+      align-content: center;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none;
+  }
+  .na-link{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .scrol::-webkit-scrollbar{
+      display: none;
+  }
+  .scrol a{
+      color:#6c757d;
+  }
+
+@media screen and (max-width: 992px) {
+    .submt{
+        width: 50%;
+        font-size: 15px;
+        padding: 07px 0;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .writ{
+        margin-bottom: 15px;
+    }
+}
